@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand
       objectReference: {fileID: 0}
+    - target: {fileID: 3249012004589446695, guid: e57607ec227490f4babc5c89c9829ee2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 083f4aec6725d04498e714f3be049468, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e57607ec227490f4babc5c89c9829ee2, type: 3}
 --- !u!1 &705507993
@@ -349,6 +354,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: toast
       objectReference: {fileID: 0}
+    - target: {fileID: 921379123719031720, guid: c6b153c8f3c4b5942978abb92ffd7759,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f982a916da002f44993b7ec5feb3701, type: 2}
+    - target: {fileID: 2553701320294769485, guid: c6b153c8f3c4b5942978abb92ffd7759,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ed9142654a79afc4ba7799b9c748203f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b153c8f3c4b5942978abb92ffd7759, type: 3}
 --- !u!1 &963194225
@@ -441,6 +456,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579794813}
     m_Modifications:
+    - target: {fileID: -7718469428449620136, guid: 01c9a71e6e6481b4fa717e0adf2e5f78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 532f0c0dc7eec2241af02ea24908cd7b, type: 2}
     - target: {fileID: -4216859302048453862, guid: 01c9a71e6e6481b4fa717e0adf2e5f78,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -501,6 +521,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: knife
       objectReference: {fileID: 0}
+    - target: {fileID: 2131867996422886439, guid: 01c9a71e6e6481b4fa717e0adf2e5f78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9daa07d801a05c841991d0b8daf853f2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01c9a71e6e6481b4fa717e0adf2e5f78, type: 3}
 --- !u!1 &1579794811 stripped
