@@ -14,7 +14,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Input.mousePosition.y / 100 - 5, 0, 0);
+        transform.position = new Vector3(0, Input.mousePosition.y / 10 - 50, 0);
     }
 }
 
