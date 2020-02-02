@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DetectScrape : MonoBehaviour
 {
+
     public float dist = 0f;
     public Vector3 startPos;
     private GameObject cam;

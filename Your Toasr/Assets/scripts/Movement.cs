@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
     {
 
 
-        if (Mathf.Abs(lastYPos - transform.position.y) > 6f)
+        if (Mathf.Abs(lastYPos - transform.position.y) > 12f)
         {
             //float rando = Random.Range(0f, 10f);
             //audioSources[(rando > 5) ? 0 : 1].Play();
