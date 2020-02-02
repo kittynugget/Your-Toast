@@ -6,9 +6,8 @@ public class Scrape : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Crumbs")
+        if (collision.gameObject.name == "Crumbs")
         {
-            Debug.Log("BUH");
             Destroy(collision.gameObject);
         }
     }

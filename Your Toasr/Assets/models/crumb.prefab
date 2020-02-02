@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -4903261221356629984}
   m_Layer: 0
   m_Name: crumb
-  m_TagString: Crumbs
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
